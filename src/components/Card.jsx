@@ -33,7 +33,7 @@ function Card({loading,query,setQuery,selects,setSelects,setLoading}) {
       console.log(loading)
 
   
-      if(selects !== undefined)
+      if(selects !== undefined && selects !== "All")
        {
         return (<>
     <div>
